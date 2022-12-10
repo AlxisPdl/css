@@ -38,7 +38,9 @@ body {
     padding: 0px;
 }
 
-.page {}
+.page {
+
+}
 
 .entete {
     background-color: rgb(125, 255, 168);
@@ -54,13 +56,15 @@ body {
 }
 
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: rgb(125, 255, 168);
+    margin: 10px;
 }
 
 .pieddepage {
     background-color: rgb(125, 255, 168);
     color: white;
     text-align: center;
+    line-height: 50px;
 }
 
 .titre {
@@ -72,4 +76,43 @@ body {
     font-size: 1.5rem;
     color: white;
     font-style: italic;
+}
+
+h1 {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(255, 144, 144);
+}
+
+h2 {
+    color: rgb(255, 144, 144);
+    font-size: 1.2rem;
+    padding: 20px;
+    font-variant: small-caps;
+}
+
+strong {
+    color: rgb(255, 144, 144);
+    font-weight: normal;
+}
+
+em {
+    color: rgb(182, 127, 255);
+} 
+
+.introduction {
+    font-style: italic;
+    border: 3px solid white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+a {
+   font-weight: bold; 
+}
+
+a:hover {
+    color:rgb(182, 127, 255);
+    text-decoration: none;
 }
