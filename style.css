@@ -48,11 +48,13 @@ body {
 }
 
 .colonnes {
-    background-color: deepskyblue;
+    background-color: rgb(125, 255, 168);
 }
 
 .colonne_menu {
-    background-color: gold;
+    background-color: rgb(125, 255, 168);
+    border: 3px solid white;
+    border-radius: 10px;
 }
 
 .colonne_contenu {
@@ -115,4 +117,28 @@ a {
 a:hover {
     color:rgb(182, 127, 255);
     text-decoration: none;
+}
+
+.colonne_menu ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.colonne_menu li {
+    list-style-type: none;
+    background-color: white;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.colonne_menu li:hover {
+    background-color: rgb(182, 127, 255);
+}
+
+.colonne_menu li a {
+    text-decoration: none;
+    color: rgb(255, 144, 144);
+    display: block;
+    padding: 5px;
 }
