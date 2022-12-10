@@ -3,55 +3,71 @@
  * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
  * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
  ************************************************************/
-.page{
+.page {
     width: 900px;
-    margin:auto;
+    margin: auto;
 }
-.entete{
+
+.entete {
     height: 100px;
 }
-.colonne_menu{
-    float:left;
-    width:200px;
-    height:100%;
+
+.colonne_menu {
+    float: left;
+    width: 200px;
+    height: 100%;
 }
+
 .colonne_contenu {
-    margin-left:200px;
+    margin-left: 200px;
 }
-.pieddepage{
-    height:50px;
+
+.pieddepage {
+    height: 50px;
 }
 
 /************************************************************
  * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
  ************************************************************/
-body{
-	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
-    background-color: rgb(202, 202, 202); 
-    font-size: 0.85rem;
+body {
+    /* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
+    background-color: rgb(202, 202, 202);
+    font-size: 1.1rem;
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
     padding: 0px;
 }
-.page {
-	 
+
+.page {}
+
+.entete {
+    background-color: rgb(125, 255, 168);
+    padding: 10px;
 }
-.entete{
-    background-color: hotpink;
-}
+
 .colonnes {
     background-color: deepskyblue;
 }
-.colonne_menu{
+
+.colonne_menu {
     background-color: gold;
 }
+
 .colonne_contenu {
     background-color: lightgreen;
 }
-.pieddepage{
+
+.pieddepage {
     background-color: lightgray;
 }
 
+.titre {
+    font-size: 3.5rem;
+    color: white;
+}
 
-
-
+.slogan {
+    font-size: 1.5rem;
+    color: white;
+    font-style: italic;
+}
