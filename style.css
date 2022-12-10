@@ -58,7 +58,9 @@ body {
 }
 
 .pieddepage {
-    background-color: lightgray;
+    background-color: rgb(125, 255, 168);
+    color: white;
+    text-align: center;
 }
 
 .titre {
